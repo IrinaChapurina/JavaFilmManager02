@@ -1,9 +1,9 @@
 public class FilmManager {
     private String[] films = new String[0];
-    private int limit;
+    private int limit = 10;
 
     public FilmManager() {
-        this.limit = 10;
+        this.limit = 5;
     }
 
     public FilmManager(int limit) {
